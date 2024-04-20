@@ -4,7 +4,7 @@ RUN apk add --no-cache git
 
 RUN git clone https://github.com/notCharonumThree/multiplication.git
 
-WORKDIR /flowos_fixed
+WORKDIR /multiplication
 
 RUN npm install
 
