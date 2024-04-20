@@ -2,7 +2,7 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/notCharonumThree/flowos_fixed.git
+RUN git clone https://github.com/notCharonumThree/multiplication.git
 
 WORKDIR /flowos_fixed
 
